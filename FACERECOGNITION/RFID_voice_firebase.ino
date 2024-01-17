@@ -9,12 +9,12 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // Wi-Fi Settings
-const char* ssid = "Epel";
-const char* password = "00000001";
+const char* ssid = "";
+const char* password = "";
 
 // Firebase Settings
-#define FIREBASE_HOST "https://faceattendacerealtime-45f98-default-rtdb.firebaseio.com/"
-#define FIREBASE_AUTH "WhMAVXjWTNQHGO21S7DUlHzUqWP1y77R7yDEDgSS"
+#define FIREBASE_HOST ""
+#define FIREBASE_AUTH ""
 
 FirebaseData firebaseData;
 
