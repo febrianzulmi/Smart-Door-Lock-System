@@ -13,10 +13,10 @@ from datetime import datetime
 
 
 cred = credentials.Certificate(
-    "D:/FACERECOGNITION/faceattendacerealtime-45f98-firebase-adminsdk-xkzbo-184093dad7.json")
+    "")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://faceattendacerealtime-45f98-default-rtdb.firebaseio.com/",
-    'storageBucket': "faceattendacerealtime-45f98.appspot.com"
+    'databaseURL': "",
+    'storageBucket': ""
 })
 
 bucket = storage.bucket()
